@@ -1,0 +1,90 @@
+.card-div {
+  width: 100%;
+  min-height: 500px;
+  /* background-color: red; */
+}
+.inner-card-div {
+  max-width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+.inner-card-div h3 {
+  font-size: 28px;
+}
+.card-wrap {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.card-box {
+  width: 260px;
+  height: 350px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-box-1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-box-2 {
+  width: 100%;
+  height: 45%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.card-box-2 p {
+  font-size: 15px;
+}
+.card-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-card-circle {
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub-inner-card-circle {
+  width: 75px;
+  height: 75px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+  .card-wrap {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 928px) {
+  .card-box {
+    width: 350px;
+  }
+  .card-wrap {
+    margin-bottom: 20px;
+  }
+}
